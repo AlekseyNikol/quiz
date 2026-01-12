@@ -5,13 +5,13 @@ const questions = [
     question: "Электромобили не требуют технического обслуживания.",
     explanation: "💡 Нет масла, свечей и коробки передач, но контроль батареи и подвески всё равно нужен.",
     correct: false,
-    image: "img/4.webp"
+    image: "img/1920.webp"
   },
   {
     question: "Основатель компании Mercedes-Benz назвал свое детище по имени дочери Мерседес",
     explanation: "💡 У Бенца никогда не было дочки и он не был основателям.",
     correct: false,
-    image: "img/3.png"
+    image: "img/mercedes.webp"
   },
   {
     question: "Использование кондиционера увеличивает расход топлива.",
@@ -23,19 +23,19 @@ const questions = [
     question: "Если автомобиль долго стоит без движения, аккумулятор всё равно разряжается.",
     explanation: "💡 Системы охраны и электроника продолжают потреблять энергию.",
     correct: true,
-    image: "img/6.webp"
+    image: "img/winter_car_1-2.webp"
   },
   {
     question: "Полный привод всегда делает автомобиль безопаснее.",
     explanation: "💡 Он улучшает проходимость, но не сокращает тормозной путь.",
     correct: false,
-    image: "img/6.webp"
+    image: "img/Avenger4xe7.webp"
   },
   {
     question: "Первый электроавтомобиль появился ещё в XIX веке.",
     explanation: "💡 Первые электромобили были созданы в 1830–1840-х годах в Европе и США.",
     correct: true,
-    image: "img/6.webp"
+    image: "img/lohner.webp"
   }
 ];
 
