@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Автоквест по логотипам</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="quiz-container">
+    <!-- Экран вопросов -->
+    <div id="quiz-screen">
+      <div class="quiz-header">
+        <div class="question-counter">
+          Вопрос <span id="question-number">1</span> из <span id="question-total">7</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-bar__fill" id="progress-bar-fill"></div>
+        </div>
+      </div>
+
+      <div class="quiz-image-wrapper">
+        <img id="question-image" src="" alt="Изображение вопроса" />
+      </div>
+
+      <div class="quiz-question-text" id="question-text">
+        Текст вопроса будет здесь
+      </div>
+
+      <div class="quiz-options">
+        <button class="quiz-option" data-index="0"></button>
+        <button class="quiz-option" data-index="1"></button>
+        <button class="quiz-option" data-index="2"></button>
+      </div>
+
+      <div class="quiz-footer">
+        <button id="submit-btn" class="quiz-button-primary" disabled>Ответить</button>
+      </div>
+    </div>
+
+    <!-- Экран результата -->
+    <div id="result-screen" class="hidden">
+      <div class="result-layout">
+        <div class="result-image-wrapper">
+          <!-- Поставьте свою картинку, например скрин из макета результатов -->
+          <img id="result-image-wrapper-id" src="" alt="Результат теста" />
+        </div>
+        <div class="result-text-blocks">
+          <div class="result-main-title" id="result-title">
+            Правильных ответов 0 из 7
+          </div>
+          <div class="result-subtitle" id="result-description">
+            Текст о статусе игрока.
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="answers-summary-title">Ваши ответы:</div>
+        <div class="answers-summary-row" id="answers-summary-row"></div>
+      </div>
+
+      <div class="result-button-row">
+        <button id="restart-btn" class="quiz-button-primary">Пройти тест еще раз</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
